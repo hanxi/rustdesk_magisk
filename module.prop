@@ -1,0 +1,6 @@
+id=barrier_free_rustdesk
+name=rustdesk无障碍保活
+version=v0.1(20240412)
+versionCode=20240412
+author=hanxi
+description=保活策略：重启后将rustdesk转化为系统应用＋开机自启动rustdesk无障碍服务，用crond自动保活。
