@@ -13,6 +13,7 @@ android.permission.RECEIVE_BOOT_COMPLETED
 android.permission.SYSTEM_ALERT_WINDOW
 android.permission.BIND_ACCESSIBILITY_SERVICE"
 
-for i in $permissions;do
-  pm grant com.carriez.flutter_hbb $i 2>/dev/null
+for i in $permissions; do
+	pm grant com.carriez.flutter_hbb $i 2>/dev/null
 done
+
